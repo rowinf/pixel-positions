@@ -1,3 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@source "../views";
+
+@theme {
+    --text-tiny: 0.625rem;
+    --color-black: #060606;
+    --default-font-family: "Hanken Grotesk", sans-serif;
+}
